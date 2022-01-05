@@ -1,5 +1,5 @@
 # Http/Https Proxy
-Simple Flask based web server/proxy that redirects http post request to https post request. İf you have İoT system and cannot do https request becasuse of system limits, you can use this simple server to do https request to any server like Firebase.
+Simple Flask based web server/proxy that redirects http/https post request to https post request. İf you have İoT system and cannot do https request becasuse of system limits or outdated ssl/tls version, you can use this simple server to do https request to any server like Firebase.
 # Usage
 * You should edit "url" variable to select which server you want to https request.
 * After deploying the code to server, you can request http get to the web server for see server is running; You return "Hello, you requested." 
